@@ -1,4 +1,6 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Open+Sans+Condensed:wght@300&display=swap');
+
 * {
     margin: 0;
     
@@ -8,16 +10,17 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0 auto;
+    font-family: Open Sans Condensed, sans-serif ;
   }
 
 header {
-    background: brown;
+    background:#f9a12eff;
     padding: 20px;
 }
 
 
 header h1 {
-    color: white;
+    color: #9b4a97ff;
     display: flex;
     justify-content: flex-start;
     margin: 10px 0;
@@ -31,9 +34,9 @@ nav {
 }
 
 nav a {
-    border: 1px solid white;
-    background: white;
-    color: brown;
+    
+    background:#fc766aff;
+    color:#9b4a97ff;
     display: flex;
     width: 70px;
     padding: 10px;
@@ -41,10 +44,12 @@ nav a {
     justify-content: center;
     text-decoration: none;
     margin: 2px;
+    font-weight: 300;
 }
 
 nav a:hover {
-    background: black;
+    background:#9b4a97ff;
+    color: white;
 }
 
 .top {
@@ -72,13 +77,18 @@ nav a:hover {
 }
 
 .top-text h2 {
-    font-size: 60px;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+    color: #9b4a97ff;
 }
 
 
 button {
     padding: 10px;
     font-size: 20px;
+    background-color: #9b4a97ff;
+    color: #fc766aff;
+    font-family: Open Sans Condensed, sans-serif ;
 }
 
 .top-text p {
@@ -103,7 +113,7 @@ button {
 }
 
 footer {
-    background: brown;
+    background: #f9a12eff;
     width: 100%;
     height: 200px;
 
@@ -116,6 +126,7 @@ footer h3 {
     font-size: 40px;
     align-items: center;
     padding-top: 30px;
+    color: #9b4a97ff;
 }
 
 footer .button {
@@ -123,4 +134,5 @@ footer .button {
     justify-content: center;
     width: 100%;
     margin-top: 20px;
+    color: #fc766aff;
 }
