@@ -66,9 +66,12 @@ nav a:hover {
 }
 
 .top-text {
-    display: inline-block;
+    display: flex;
+    height: 30vh;
+    align-content: space-evenly;
+    flex-direction: column;
     width: 50%;
-    margin-left: 30px;
+    margin: 30px;
 }
 
 .top-text h2,button,p {
@@ -86,6 +89,9 @@ nav a:hover {
     width: 100%;
     align-items: center;
     justify-content: center;
+    background-color: #f9a12eff;
+    color: #fc766aff;
+    border: 0px;
     
 }
 
