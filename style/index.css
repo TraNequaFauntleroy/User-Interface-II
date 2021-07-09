@@ -33,8 +33,7 @@ nav {
     width: 100%;
 }
 
-nav a {
-    
+nav a { 
     background:#fc766aff;
     color:#9b4a97ff;
     display: flex;
@@ -82,6 +81,13 @@ nav a:hover {
     color: #9b4a97ff;
 }
 
+.header-button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 button {
     display: flex;
@@ -118,7 +124,7 @@ button {
 footer {
     background: #f9a12eff;
     width: 100%;
-    height: 200px;
+    height: 300px;
 
 }
 
@@ -136,6 +142,17 @@ footer .button {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 20px;
+    margin: 20px 0;
     color: #fc766aff;
+}
+
+footer nav {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 2px;
+    font-weight: 300;
+
 }
