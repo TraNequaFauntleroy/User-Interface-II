@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
+    border: 1px solid grey;
     
 }
 
@@ -133,7 +134,7 @@ button {
 footer {
     background: #f9a12eff;
     width: 100%;
-    height: 300px;
+    height: auto;
 
 }
 
@@ -181,7 +182,6 @@ footer nav {
     nav a {
         width: 20%;
         font-size: 1.2rem;
-
     }
     header h1 {
         justify-content: center;
@@ -196,31 +196,32 @@ footer nav {
         margin: 0px 0 0 60px;
         height: 100vh;
     }
-
     .main-pic img {
         align-items: center;
         justify-content: center;
     }
-
     .top h2 {
         font-size: 3rem;
         text-align: center;
     }
-
+    .top-text {
+        width: 100%;
+    }
     .top-text p {
         justify-content: center;
         align-items: center;
         font-size: 2rem;
-        width: 100%;
     }
-
     .gallery .top-div {
         flex-wrap: wrap;
         margin: 300px 0;
+        justify-content: space-around;
     }
-
     .gallery .bottom-div {
         display: none;
+    }
+    footer a {
+        margin-bottom: 20px;
     }
 }
 
