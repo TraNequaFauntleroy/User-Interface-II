@@ -225,3 +225,9 @@ footer nav {
     }
 }
 
+@media (max-width: 500px) {
+    .top {
+        margin: 0;
+    }
+}
+
