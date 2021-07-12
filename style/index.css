@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Open+Sans+Condensed:wght@300&display=swap');
 
 * {
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
+    max-width: 100%;
     
 }
 
@@ -160,5 +163,64 @@ footer nav {
     text-decoration: none;
     margin: 2px;
     font-weight: 300;
-
 }
+
+/* MEDIA QUERIES */
+
+@media(max-width:800px) {
+
+    body {
+        align-items: center;
+        justify-content: center;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    nav a {
+        width: 20%;
+        font-size: 1.2rem;
+
+    }
+    header h1 {
+        justify-content: center;
+        font-size: 3.5rem;
+    }
+
+    .top {
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0 0 60px;
+        height: 100vh;
+    }
+
+    .main-pic img {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .top-text p {
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .gallery .top-div {
+        flex-wrap: wrap;
+        margin: 300px 0;
+    }
+
+    .gallery .bottom-div {
+        display: none;
+    }
+}
+
